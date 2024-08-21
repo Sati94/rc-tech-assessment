@@ -32,7 +32,7 @@ export class User {
             const bookIndex = this.books.indexOf(book);  // Searching the bookIndex
             if (bookIndex !== -1) {
                 this.books.splice(bookIndex, 1);         // remove the book
-                library.addBook(book);
+                library.addBook(book);                   // add to t he library
             }
             return false;
 
